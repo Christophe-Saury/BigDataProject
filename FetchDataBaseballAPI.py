@@ -1,6 +1,6 @@
 import requests
 
-def fetch_data(endpoint_url, params):
+def fetch_data_API1(endpoint_url, params):
     try:
         response = requests.get(endpoint_url, params=params)
         response.raise_for_status()  # Raise an exception if the request was unsuccessful
