@@ -11,12 +11,16 @@ def fetch_player_info(player_id):
     except requests.exceptions.RequestException as e:
         print("Error:", str(e))
 
+
+
+
 # Set the player ID
 player_id = "493316"
 
 # Fetch player information
 data = fetch_player_info(player_id)
 
+print(data)
 # Check if data is available
 if data is not None:
     # Parse JSON data

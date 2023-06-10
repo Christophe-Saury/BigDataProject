@@ -1,0 +1,23 @@
+{
+    "player_id": "592789",
+    "player_name": "Player Name",
+    "position": "Pitcher",
+    "important_stats": {
+        "ERA": "2.97",
+        "K/9": "10.09",
+        "WHIP": "1.05",
+        "K/BB": "11.33",
+        "CG": "0",
+        "SV": "0",
+        "FIP": 2.83
+    },
+    "average_stats": {
+        "ERA": 4.06,
+        "K/9": 10.56,
+        "WHIP": 1.15,
+        "K/BB": 4.08,
+        "CG": 0.5,
+        "SV": 0.33,
+        "FIP": 3.2
+    }
+}
