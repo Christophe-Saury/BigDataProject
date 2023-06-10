@@ -22,7 +22,7 @@ endpoint_url = f"http://lookup-service-prod.mlb.com/json/named.sport_pitching_tm
 data = fetch_data_API1(endpoint_url)
 
 # Print the data
-print(data)
+
 
 
 # Extract relevant values
@@ -43,8 +43,7 @@ fip = ((13 * hr) + (3 * (bb + hbp_percentage / 100)) - (2 * k9)) / ip + 3.2
 fip = round(fip, 2)
 
 # Print results
-print("Estimated HBP percentage:", hbp_percentage)
-print("FIP:", fip)
+
 
 
 
